@@ -1,0 +1,75 @@
+.btn_custom{
+	width: 100% !important;
+	height: 100% !important;
+	font-size: 1.3rem;
+	background: #10d078;
+	border:none;
+}
+.btn_custom:focus,
+.btn_custom:hover{
+	background: #10d078;
+	border:none;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus{
+	background: transparent !important;
+}
+
+.box_shadow {
+    box-shadow: 0 0 35px rgb(60, 70, 75, 0.1);
+    border-radius: 1px;
+    margin:15px;
+    padding: 15px;
+
+}
+.box_shadow_1{
+    border-radius: 1px;
+    margin:5px;
+    background: #3c464b;
+    padding: 5px !important;
+    height: 200px;
+    width: 150px;
+    font-weight: 700;
+    font-size: 3rem !important;
+    z-index: 1;
+}
+
+.work_icon i {
+    font-size: 30px;
+    height: 65px;
+    width: 65px;
+    line-height: 6px;
+    display: inline;
+    color: #10d078;
+}
+.card{
+
+	display: block;
+    position: relative;
+    cursor: pointer;
+    padding: 1px 0px;
+    text-decoration: none;
+    outline: 0px;
+
+}
+.card-header{
+	background:#fff;
+	color:rgb(16, 208, 120)!important;
+
+}
+.accordion .card a{
+	color:rgb(16, 208, 120)!important;
+}
+
+
+/* $(function(){
+
+    $(".dropdown-menu li a").click(function(){
+
+      $(".btn:first-child").text($(this).text());
+      $(".btn:first-child").val($(this).text());
+
+   });
+
+});*/
