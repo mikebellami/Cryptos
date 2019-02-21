@@ -62,6 +62,210 @@
 	color:rgb(16, 208, 120)!important;
 }
 
+.footer_custom_color{
+    background-color: #000000!important;
+}
+
+.footer-col__head {
+    margin: 0 0 11px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.4rem !important;
+    font-weight: 400;
+    color: #404b51;
+    text-transform: uppercase;
+}
+
+.contact__address, .footer__info--text p {
+    color: #fff;
+    margin: 3px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.1rem !important;
+    font-weight: 400;
+    line-height: 2;
+    opacity: .8;
+}
+.footer__info{
+    color: #fff;
+    margin: 3px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.1rem !important;
+    font-weight: 400;
+    line-height: 2;
+    opacity: .8;
+}
+
+ul{
+    list-style: none;
+}
+.footer__links a {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    font-family: Montserrat,sans-serif;
+    font-size: 1rem !important;
+    color: #fff;
+    opacity: .8;
+    cursor: pointer;
+    text-align: center;
+}
+.footer__links li a:hover{
+    border-bottom: 2px solid #10d078;
+    color: #fff;
+    opacity: 1;
+} 
+a[href^="mailto:"]{ 
+  font-family: Montserrat,sans-serif;
+  color: #fff;
+}
+a[href^="mailto:"]:hover{ 
+    border-bottom: 2px solid #10d078;
+    color: #fff;
+    opacity: 1;
+}
+.social__links {
+    padding: 0;
+    margin: 1rem 0;
+    
+}
+.list-inline-item a{
+    color:#fff; 
+    padding: 3px;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+}
+.list-inline-item a:hover{
+    color:#10d078;
+}
+
+.copyright__text {
+    opacity: .7;
+    color: #fff;
+    margin: 3px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.1rem !important;
+    margin-bottom: -7%;
+}
+
+.panel {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  background: none;
+  box-shadow: none;
+
+}
+
+.panel:last-child {
+  border-bottom: none;
+}
+
+.panel-group > .panel:first-child .panel-heading {
+  border-radius: 4px 4px 0 0;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
+.panel-heading {
+  background-color: #fff;
+  border-radius: 0;
+  border: none;
+  color: #333;
+  padding: 0;
+}
+
+.panel-title a {
+  display: block;
+  color: #10d078;
+  padding: 15px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.panel-body {
+  background: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+  padding: 20px;
+}
+
+.panel:last-child .panel-body {
+  border-radius: 0 0 4px 4px;
+}
+
+.panel:last-child .panel-heading {
+  border-radius: 0 0 4px 4px;
+  transition: border-radius 0.3s linear 0.2s;
+}
+
+.panel:last-child .panel-heading.active {
+  border-radius: 0;
+  transition: border-radius linear 0s;
+}
+/* #bs-collapse icon scale option */
+
+.panel-heading a:before {
+  content: '\e146';
+  position: absolute;
+  font-family: 'Material Icons';
+  right: 5px;
+  top: 10px;
+  font-size: 24px;
+  transition: all 0.5s;
+  transform: scale(1);
+}
+
+.panel-heading.active a:before {
+  content: ' ';
+  transition: all 0.5s;
+  transform: scale(0);
+}
+
+#bs-collapse .panel-heading a:after {
+  content: ' ';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Material Icons';
+  right: 5px;
+  top: 10px;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+#bs-collapse .panel-heading.active a:after {
+  content: '\F13C';
+  transform: scale(1);
+  transition: all 0.5s;
+}
+/* #accordion rotate icon option */
+
+#accordion .panel-heading a:before {
+  content: '\F13F';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Material Icons';
+  right: 5px;
+  top: 10px;
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}
+
+#accordion .panel-heading.active a:before {
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+
+
+
 
 /* $(function(){
 
